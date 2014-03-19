@@ -21,7 +21,7 @@ module.exports = {
 	},
 	vendor: {
 		files: ['vendor/**/*.js', 'vendor/**/*.css'],
-		tasks: ['copy']
+		tasks: ['copy:vendor']
 	},
 	livereload: {
 		options: {
